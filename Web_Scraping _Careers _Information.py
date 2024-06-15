@@ -123,7 +123,7 @@ for i in range(0, count):
     
     # Appending job data to final_data list
     final_data.append(job_data)
-    break
+    # break
 
 # Creating a DataFrame from final_data and exporting to Excel and CSV files
 df = pd.DataFrame(final_data)
