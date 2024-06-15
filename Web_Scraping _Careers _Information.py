@@ -127,5 +127,5 @@ for i in range(0, count):
 
 # Creating a DataFrame from final_data and exporting to Excel and CSV files
 df = pd.DataFrame(final_data)
-df.to_excel('career_data_xlsx.xlsx', index=False)
+df.to_excel('career_data.xlsx', index=False)
 df.to_csv('career_data_csv.csv', index=False)
